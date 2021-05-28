@@ -1,0 +1,17 @@
+
+---
+1. Debug and fix test : User is able to sell a pet in status pending
+    - although test passes, status of the pet is incorrect after the execution (AVAILABLE instead of PENDING)
+2. Debug and fix test : User is able to remove pet from the Pet Store
+    - test is failing in the second step for unknown reason
+3. Create a new feature file (user_management) and two new scenarios:
+    - Scenario_1 should test if a user can be updated in the application
+        -- make sure to use soft assertions in @Then (assertJ)
+    - Scenario_2 should test if a user can be deleted from the application
+
+
+---
+Useful documentation:
+-> https://assertj.github.io/doc/
+-> https://rest-assured.io/
+-> Cucumber for Java book

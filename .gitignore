@@ -1,0 +1,36 @@
+# ECLIPSE CONFIG
+.classpath
+.project
+.metadata
+.settings
+.loadpath
+**/target
+*/target/
+/bin
+/test-output
+.factorypath
+
+# IDEA CONFIG
+.idea
+**/*.iml
+**/*.ipr
+**/build
+.gradle
+#gradle/
+gradle.bat
+#gradlew.bat
+#gradlew
+/out
+**/classes
+*.iws
+
+# gradle
+# Other
+/logs
+env.properties
+*.log
+*.log.*
+**/rebel.xml
+/build/
+**/.mvn
+*/.mvn/
