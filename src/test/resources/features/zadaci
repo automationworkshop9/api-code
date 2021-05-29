@@ -1,5 +1,11 @@
 
 ---
+Notes:
+Install following plugins in InteliJ:
+- Cucumber for Java
+- Gherkin
+
+---
 1. Debug and fix test : User is able to sell a pet in status pending
     - although test passes, status of the pet is incorrect after the execution (AVAILABLE instead of PENDING)
 2. Debug and fix test : User is able to remove pet from the Pet Store
